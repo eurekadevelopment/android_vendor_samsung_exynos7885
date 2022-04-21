@@ -6,10 +6,10 @@
 	<!-- Uses the earpiece as left speaker -->
 	<!-- Adjust values with caution! -->
 
-	<ctl name="DAC Gain" value="150" />
+	<ctl name="DAC Gain" value="155" />
 	<ctl name="Speaker Volume" value="155" />
-	<ctl name="Earphone Volume" value="172" />
-	<ctl name="Headphone Volume" value="172" />
+	<ctl name="Earphone Volume" value="155" />
+	<ctl name="Headphone Volume" value="155" />
 
 	<!-- Dual Speaker Mod -->
 
