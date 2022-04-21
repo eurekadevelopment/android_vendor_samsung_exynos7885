@@ -5,3 +5,20 @@
 soong_namespace {
 }
 
+cc_prebuilt_library_shared {
+	name: "libskeymaster4device",
+	owner: "samsung",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libskeymaster4device.so"],
+		},
+	},
+	shared_libs: ["android.hardware.keymaster@4.0", "libbase", "libc++", "libc", "libcrypto", "libcutils", "libdl", "libkeymaster_messages", "libkeymaster_portable", "liblog", "libm", "libutils"],
+	check_elf_files: false,
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
