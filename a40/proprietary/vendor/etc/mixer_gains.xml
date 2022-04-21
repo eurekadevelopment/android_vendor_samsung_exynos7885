@@ -24,7 +24,7 @@
 
 	<!-- Disable Values for Dual Speaker Mod -->
 	<path name="gain-media-speaker">
-		<ctl name="DAC Gain" value="170" />
+		<ctl name="DAC Gain" value="155" />
 		<ctl name="Earphone Volume" value="0" />
 	</path>
 
