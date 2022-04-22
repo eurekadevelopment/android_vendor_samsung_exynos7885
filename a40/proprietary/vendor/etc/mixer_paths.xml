@@ -111,6 +111,7 @@
 
 	<!-- SMA1301 default settings -->
 	<ctl name="Volume slope" value="Off" />
+	<ctl name="Attack level control" value="LVL_0.25FS" />
 	<ctl name="Trimming of over current limit" value="I_1.93A" />
 	<ctl name="Trimming of boost voltage" value="BST_5.5V" />
 	<ctl name="Filtered VDD gain control" value="VDD_2.75V" />
@@ -120,7 +121,7 @@
 	</path>
 
 	<path name="route-spkamp-playback">
- 	  <path name="route-playback"/>
+    <path name="route-playback"/>
 		<ctl name="ABOX ERAP info Bypass On" value="1" />
 		<ctl name="ABOX ERAP info DSM On" value="0" />
 		<ctl name="ABOX NSRC3" value="UAIF3" />
@@ -222,8 +223,7 @@
 	</path>
 
 	<path name="dev-speaker">
-		<path name="media-handset"/>
-			<path name="dev-handset"/>					  					 
+    <path name="dev-handset"/>
 	</path>
 
 	<path name="dev-headset">
@@ -281,18 +281,11 @@
 		<path name="media-handset" />
 	</path>
 
-	<!-- Adjusted for merging earpiece as left ch speaker -->
 	<path name="media-speaker">
 		<path name="route-spkamp-playback" />
 		<path name="dev-speaker" />
-		<path name="route-playback" />
-		<path name="dev-handset" />						
 	</path>
 
-	<!-- Adjusted settings for headset volume -->
-	<!-- Adjusted threshold to avoid audio cut off -->
-	<!-- Adjusted Values for audio power -->
-	<!-- Adjust values with Caution! -->
 	<path name="media-headset">
 		<path name="route-playback" />
 		<path name="dev-headset" />
@@ -300,8 +293,8 @@
 		<ctl name="AVC Mute Enable" value="1" />
 		<ctl name="In Mute HP Current" value="3" />
 		<ctl name="Out Mute HP Current" value="3" />
-		<ctl name="OVP Tuning Value" value="260" />
-		<ctl name="Detect Threshold" value="200" />
+		<ctl name="OVP Tuning Value" value="231" />
+		<ctl name="Detect Threshold" value="188" />
 	</path>
 
 	<path name="media-headphone">
@@ -785,6 +778,7 @@
 		<ctl name="ABOX NSRC1" value="UAIF1" />
 		<ctl name="ABOX Sound Type" value="CALLFWD" />
 	</path>
+
 
 	<!-- Spectro Scenario -->
 	<path name="call_spectro">
