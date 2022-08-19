@@ -1,0 +1,145 @@
+cc_prebuilt_library_shared {
+    name: "libFaceDetectCA",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libFaceDetectCA.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libFaceDetectCA.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmegface-faceunlock",
+    stem: "libmegface",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libmegface.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libmegface.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMegviiUnlock",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libMegviiUnlock.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libMegviiUnlock.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libMegviiUnlock-jni-1.2",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libMegviiUnlock-jni-1.2.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libMegviiUnlock-jni-1.2.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft_faceid",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libarcsoft_faceid.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libarcsoft_faceid.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoft-lib",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libarcsoft-lib.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libarcsoft-lib.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libarcsoftbase",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libarcsoftbase.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libarcsoftbase.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
+
+cc_prebuilt_library_shared {
+    name: "libmpbase-faceunlock",
+    stem: "libmpbase",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["prebuilt/libs/arm/libmpbase.so"],
+        },
+        android_arm64: {
+            srcs: ["prebuilt/libs/arm64-v8a/libmpbase.so"],
+        },
+    },
+    compile_multilib: "first",
+    prefer: true,
+    check_elf_files: false,
+}
