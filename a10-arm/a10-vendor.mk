@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/hwcomposer.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos7884B.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/lights.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.universal7884B.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/gralloc.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos7884B.so \
-    vendor/samsung/a10-arm/proprietary/vendor/lib/hw/memtrack.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos7884B.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/thermal.universal7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal7884B.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.1-impl.so \
     vendor/samsung/a10-arm/proprietary/vendor/lib/hw/audio.primary.exynos7884B.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos7884B.so \

@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib/hw/gatekeeper.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib/hw/gralloc.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib/hw/hwcomposer.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos7904.so \
-    vendor/samsung/a30s/proprietary/vendor/lib/hw/memtrack.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib/hw/sensors.universal7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib/hw/thermal.universal7904.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.universal7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
@@ -119,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/gatekeeper.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/gralloc.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/hwcomposer.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos7904.so \
-    vendor/samsung/a30s/proprietary/vendor/lib64/hw/memtrack.exynos7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/sensors.universal7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/hw/thermal.universal7904.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.universal7904.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
