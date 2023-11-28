@@ -53,48 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan.hcf \
     vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_wlan_t.hcf \
     vendor/samsung/a10/proprietary/vendor/etc/wifi/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/platform.txt \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/common/log-strings.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/common/log-strings.bin \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/bt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/bt_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/cortexM4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/cortexM4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/cortexR4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/cortexR4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mailbox16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mailbox16.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mailbox4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mailbox4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mailbox8.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mailbox8.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/moredump.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/moredump.bin \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/moredump.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/moredump.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/pl192vic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/pl192vic.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/rf_chip_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/rf_chip_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/wlan_sys_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/wlan_sys_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/hip_signals.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/hip_signals.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/hydra_config.sdb:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/hydra_config.sdb \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/id.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/id.txt \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/mib_out.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/mib_out.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/symbols.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/symbols.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/unicli.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/unicli.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/unitab.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/unitab.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/univif.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/univif.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140/debug/wlan/xide_mib.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/xide_mib.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/common/log-strings.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/common/log-strings.bin \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/bt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/bt_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/cortexM4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/cortexM4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/cortexR4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/cortexR4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mailbox16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mailbox16.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mailbox4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mailbox4.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mailbox8.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mailbox8.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/moredump.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/moredump.bin \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/moredump.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/moredump.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/pl192vic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/pl192vic.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/rf_chip_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/rf_chip_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/wlan_sys_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/wlan_sys_registers.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/hip_signals.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/hip_signals.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/hydra_config.sdb:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/hydra_config.sdb \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/id.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/id.txt \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/mib_out.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/mib_out.xml \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/symbols.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/symbols.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/unicli.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/unicli.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/unitab.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/unitab.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/univif.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/univif.dbg \
-    vendor/samsung/a10/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/xide_mib.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/xide_mib.dbg \
     vendor/samsung/universal7885-common/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/universal7885-common/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
     vendor/samsung/universal7885-common/proprietary/vendor/firmware/Tfa9896.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/Tfa9896.cnt \
