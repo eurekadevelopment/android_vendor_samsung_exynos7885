@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a30s
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a30s/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/a30s/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
     vendor/samsung/a30s/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/samsung/a30s/proprietary/vendor/etc/wifi/hydra_config.sdb:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/hydra_config.sdb \
@@ -56,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty.arcsoft.so \
     vendor/samsung/a30s/proprietary/vendor/lib/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideobeauty_interface.so \
     vendor/samsung/a30s/proprietary/vendor/lib/libwebrtc_audio_preprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwebrtc_audio_preprocessing.so \
-    vendor/samsung/a30s/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/a30s/proprietary/vendor/lib/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyasalgo.so \
     vendor/samsung/a30s/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
     vendor/samsung/a30s/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
@@ -75,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a30s/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libvideobeauty.arcsoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty.arcsoft.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libvideobeauty_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideobeauty_interface.so \
-    vendor/samsung/a30s/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/libyasalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyasalgo.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/soundfx/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioroute.so \
     vendor/samsung/a30s/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
